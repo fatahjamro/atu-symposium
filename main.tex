@@ -1,0 +1,52 @@
+\documentclass[aspectratio=169]{beamer}
+
+% Text in English
+\usepackage[english]{babel}
+
+% Document metadata
+\title{Classical and Quantum Computing techniques for Dihedral error correcting codes}
+\subtitle{Beamer template}
+\author[TL]{Abdul Fatah, Ian Mcloughlin}
+\institute{ATU - Atlantic Technological University, Galway}
+\date{\today}
+
+% Image for the title page (use the includegraphics option to size/position it correctly)
+\titlegraphic{\includegraphics[height=\paperheight]{images/ATUgalway.jpg}}
+
+\usetheme[sectionstyle=style2]{trigon}
+
+% Define the logos to use (comment if there is no logo)
+\biglogo{atulogo31.jpg} % Used only on the cover
+\biglogo{}
+\smalllogo{atulogo1.png} % Used in the upper right corner of normal frames
+
+% ------ If you want to change the default theme colors, do it here ------
+\definecolor{tPrim}{HTML}{EA7600}   % 716
+\definecolor{tSec}{HTML}{B1B1B1}    % cool gray
+\definecolor{tAccent}{HTML}{002F6C} % 294
+
+ 
+%------ Packages and definitions used for this demo. Can be deleted ------
+\usepackage{appendixnumberbeamer} % To use \appendix command
+\pdfstringdefDisableCommands{% Fix hyperref translate warning with \appendix
+\def\translate#1{#1}%
+}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{pgf-pie} % For pie charts 
+\usepackage{caption} % For subfigures
+\usepackage{subcaption} % For subfigures
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{USACHtheme}}\xspace}
+\usepackage[scale=2]{ccicons} % Icons for CC-BY-SA
+\usepackage{booktabs} % Better tables
+
+
+%==============================================================================
+%                               COMENZAR DOCUMENTO
+%==============================================================================
+\begin{document}
+
+\include{frames}
+
+\end{document}
